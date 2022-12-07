@@ -1,0 +1,25 @@
+﻿Build started 07/12/2022 3:31:07 PM.
+     1>Project "D:\C\20221207 C  Operator 1\20221207 C  Operator 1\20221207 C  Operator 1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\20221207 C  Operator 1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt operator1.cpp
+         operator1.cpp
+     1>d:\c\20221207 c  operator 1\20221207 c  operator 1\operator1.cpp(13): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\c\20221207 c  operator 1\20221207 c  operator 1\operator1.cpp(14): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\c\20221207 c  operator 1\20221207 c  operator 1\operator1.cpp(7): warning C4101: 'resulti' : unreferenced local variable
+     1>d:\c\20221207 c  operator 1\20221207 c  operator 1\operator1.cpp(9): warning C4101: 'resultf' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C\20221207 C  Operator 1\Debug\20221207 C  Operator 1.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\20221207 C  Operator 1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\C\20221207 C  Operator 1\Debug\20221207 C  Operator 1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C\20221207 C  Operator 1\Debug\20221207 C  Operator 1.lib" /MACHINE:X86 Debug\operator1.obj
+         LINK : D:\C\20221207 C  Operator 1\Debug\20221207 C  Operator 1.exe not found or not built by the last incremental link; performing full link
+         20221207 C  Operator 1.vcxproj -> D:\C\20221207 C  Operator 1\Debug\20221207 C  Operator 1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\C\20221207 C  Operator 1\Debug\20221207 C  Operator 1.exe;#1" /manifest "Debug\20221207 C  Operator 1.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\20221207 C  Operator 1.unsuccessfulbuild".
+         Touching "Debug\20221207 C  Operator 1.lastbuildstate".
+     1>Done Building Project "D:\C\20221207 C  Operator 1\20221207 C  Operator 1\20221207 C  Operator 1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.58

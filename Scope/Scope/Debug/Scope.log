@@ -1,0 +1,21 @@
+﻿Build started 07/12/2022 2:59:15 PM.
+     1>Project "D:\C\Scope\Scope\Scope.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Scope.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Scope.cpp
+         Scope.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C\Scope\Debug\Scope.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Scope.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\C\Scope\Debug\Scope.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C\Scope\Debug\Scope.lib" /MACHINE:X86 Debug\Scope.obj
+         LINK : D:\C\Scope\Debug\Scope.exe not found or not built by the last incremental link; performing full link
+         Scope.vcxproj -> D:\C\Scope\Debug\Scope.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\C\Scope\Debug\Scope.exe;#1" /manifest Debug\Scope.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Scope.unsuccessfulbuild".
+         Touching "Debug\Scope.lastbuildstate".
+     1>Done Building Project "D:\C\Scope\Scope\Scope.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.63
